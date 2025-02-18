@@ -1,0 +1,1 @@
+let sectionOffset=$("#about").offset().top;$(window).scroll((function(){$(window).scrollTop()>sectionOffset?$(".navbar").css("backgroundColor","rgba(0,0,0,0.8)"):$(".navbar").css("backgroundColor","transparent")}));
